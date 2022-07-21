@@ -8,7 +8,7 @@
     "build-tsc": "tsc && vite build",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy" : "surge dist --domain svelte-in-react.surge.sh"
+    "surge" : "vite build && surge dist --domain svelte-in-react.surge.sh"
   },
   "dependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
